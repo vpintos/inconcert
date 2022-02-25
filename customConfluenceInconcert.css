@@ -1,0 +1,1060 @@
+.hiddenStuffs {
+	display: none;
+	height: 0px;
+	}
+
+.innerCell {
+/*	background-color: #f2f2f2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	min-height: 100%;*/
+	}
+
+/* DEC ONFLUENCE */ 
+
+.cell.normal {
+	padding-right: 15px
+	}
+.three-equal .cell.normal {
+	width: 33.4%;
+}
+.wiki-content .innerCell {
+    height: 100%;
+}
+.two-equal .cell.normal,
+.three-equal .cell.normal {
+	padding-right: 7px;
+	}
+
+.three-equal .cell.normal:first-child,
+.two-equal .cell.normal:first-child {
+	padding-right: 7px!important;
+	}	
+	
+.two-equal .cell.normal + .cell.normal {
+	padding-right: 15px;
+	padding-left: 7px;
+	}
+
+.three-equal .cell.normal + .cell.normal {
+	padding-right: 7px;
+	padding-left: 7px;
+	}
+
+.three-equal .cell.normal + .cell.normal + .cell.normal  {
+	padding-right: 15px;
+	}
+
+.recently-updated-concise .update-item-meta,
+.update-item-meta {
+	color: #999999;
+	}
+
+
+/* HIGHLIGHT ELEMENTS */ 
+.highlightContainer {
+	background-color: #f2f2f2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	height: 100%;
+	}
+
+.highlightContainer h3 {
+	height: 45px;
+    padding-top: 15px;
+    font-size: 18px;
+	color: #ffffff;
+	background-color: #8CC7E2;
+	font-family: "Trebuchet MS";
+
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	}
+
+
+.highlightContainer h3:before {
+	 font-family: 'FontAwesome';
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 5px
+	}
+
+.highlightTroubleshooting.highlightContainer h3:before {
+	content:"\f188";
+	}
+
+.highlightHowTo.highlightContainer h3:before {
+	content:"\f059";
+	}
+
+
+
+.highlightContainer .search-macro-large {
+	margin-bottom: 20px;
+	width: calc(100% - 40px);
+	}
+
+.highlightContainer .search-macro-large .search-macro-query .aui-icon {
+	color: #8CC7E2;
+	}
+
+.highlightContainer .search-macro .search-macro-query input {
+	font-size: 15px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	}	
+
+.highlightContainer .results-container,
+.secondaryContainer .results-container {
+	padding-top: 10px;
+	margin-left: 20px;
+    width: calc(100% - 40px);
+  	border-top: 1px solid #e6e6e6;
+	}
+
+.highlightContainer .results-container ul,
+.secondaryContainer .results-container ul {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 20px);
+    background-color: #fff;
+	}	
+
+
+.highlightContainer .results-container .update-item,
+.secondaryContainer .results-container .update-item {
+	border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    background-color: #fefefe;
+    padding-top: 8px;
+    margin-top: 0px;
+	}
+
+.highlightContainer .results-container .update-item:first-child,
+.secondaryContainer .results-container .update-item:first-child {
+	padding-top: 16px;
+	}		
+
+.highlightContainer .results-container .update-item:last-child,
+.secondaryContainer .results-container .update-item:last-child {
+	border-bottom: none;
+	padding-bottom: 16px;
+	}			
+
+
+
+.highlightContainer .more-link-container,
+.secondaryContainer .more-link-container {
+    margin-top: 20px;
+    padding-top: 7px;
+    border-top: 1px solid #e6e6e6;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    width: calc(100% - 10px);
+	}		
+
+.highlightContainer .more-link-container a.more-link,
+.secondaryContainer .more-link-container a.more-link {
+	color: #666666;
+	font-size: 12px;
+	}
+
+a.more-link:before {
+	font-family: 'FontAwesome';
+    display: inline-block;
+	content: "\f055";
+	margin-right: 3px;
+	}
+
+
+/* SECONDARY ELEMENTS */ 
+.secondaryContainer,
+.secondaryContainerAux {
+	background-color: #f2f2f2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+
+.secondaryContainerAux {
+	padding-bottom: 1px;
+	min-height: 420px;
+	}	
+
+.secondaryContainer h3 {
+    height: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 17px;
+	color: #666666;
+	width: calc(100% - 30px);
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	}	
+.secondaryContainer.secondaryLastArticles h2{
+	height: 25px;
+	padding-top: 20px;
+	padding-left: 30px;
+	font-size: 17px;
+	color: #666666;
+	width: calc(100% - 30px);
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+}
+.secondaryContainerAux h2 {
+    height: 35px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 10px;
+    margin-left: 20px;
+    font-size: 17px;
+    color: #666666;
+    width: calc(100% - 50px);
+    max-width: 100%!important;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+	}	
+
+
+.secondaryContainerAux .aui-label {
+    padding: 3px 5px;
+    background-color: #ffffff;
+	}
+
+.secondaryContainerAux .aui-label:hover {
+	border-color: #8CC7E2;
+	color: #333333;
+	}
+
+.secondaryContainerAux .cq-questionlist {
+	margin-left: 20px;
+	width: calc(100% - 40px);
+	margin-bottom: 10px;
+	padding-top: 0px!important;
+	}
+
+.secondaryContainerAux .cq-questionlist .cq-question {
+	border-bottom: none!important;
+	background-color: #fefefe;
+	margin-bottom: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+
+.wiki-content .cq-questions-list-macro .cq-questionlist .cq-question:first-child {
+    padding-top: 10px;
+	}	
+
+
+
+/* icons */
+
+.secondaryContainer h3:before, .secondaryContainer.secondaryLastArticles h2:before,
+h2.cq-questions-list-macro-topic-name:before {
+    font-family: 'FontAwesome';
+    display: inline-block;
+    /* font: normal normal normal 14px/1 FontAwesome; */
+    font-size: inherit;
+    text-rendering: auto;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* color: #CB6018; */
+    color: #ffffff;
+    background-color: #8CC7E2;
+    margin-right: 8px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 29px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: -7px;
+    margin-top: -3px;
+	}
+
+.secondaryContainer.secondaryHotfix h3:before {
+	content:"\f0ad";
+	}	 
+
+.secondaryContainer.secondaryLastArticles h3:before,.secondaryContainer.secondaryLastArticles h2:before {
+	content:"\f1d8";
+	text-align: inherit;
+    padding-left: 4px;
+    width: 26px;
+	}	
+
+h2.cq-questions-list-macro-topic-name:before {
+	content:"\f0a1";
+	}
+.secondaryContainerAux.secondaryTopics h2:before {
+	content:"\f022";
+	text-align: inherit;
+    padding-left: 1px;
+    width: 26px;
+    font-family: 'FontAwesome';
+    display: inline-block;
+    /* font: normal normal normal 14px/1 FontAwesome; */
+    font-size: inherit;
+    text-rendering: auto;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* color: #CB6018; */
+    color: #ffffff;
+    background-color: #8CC7E2;
+    margin-right: 8px;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    line-height: 31px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    float: left;
+    margin-left: -7px;
+    margin-top: -3px;
+	}	
+
+/* THIRD ELEMENTS */ 
+.thirdContainer {
+	background-color: #f2f2f2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	min-height: 240px;
+	padding-bottom: 20px;
+	}	
+
+.thirdContainer h3 {
+    height: 35px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 17px;
+	color: #999999;
+	width: calc(100% - 30px);
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	border-bottom: 1px solid #e6e6e6;
+	background-color: #e6e6e6;
+
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	}
+.thirdContainer.noContent{
+	min-height: inherit;
+	padding-bottom: 0px;
+}
+.thirdContainer.noContent h3 {
+	-webkit-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	}
+.thirdContainer ul {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 60px);
+    background-color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style: none;
+	}
+
+.thirdContainer ul li {
+	border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-top: 0px;
+	}
+
+.thirdContainer ul li:last-child {			
+	border-bottom:none;
+	}
+
+.thirdContainer ul li:before {			
+	font-family: 'FontAwesome';
+    display: inline-block;
+    /* font: normal normal normal 14px/1 FontAwesome; */
+    font-size: inherit;
+    text-rendering: auto;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f02d ";
+    color: #999999;
+    margin-right: 4px;
+    font-size: 14px;
+	}		
+
+.thirdContainer p {
+	margin-left: 25px;
+    margin-top: 15px;
+	}			
+
+
+/* SUPPORT KB PAGE - custom */
+.customPageHeader.pageSupportKB {
+	background-image: url(confluenceSupportKB.jpg);
+	background-size: 100% auto;
+	height: 240px;
+	background-position-y:-180px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+
+.customPageHeader.pageSupportKB h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	}
+
+.customPageHeader.pageSupportKB p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pageSupportKB	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pageSupportKB	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pageSupportKB	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pageSupportKB	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pageSupportKB	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pageSupportKB	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pageSupportKB	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+/* i6 DOCUMENTATION PAGE - custom */
+.customPageHeader.pagei6Documentation {
+	background-image: url(confluencei6Bkg.jpg);
+	background-size: 100% auto;
+	height: 340px;
+	background-position-y:-180px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+.customPageHeader.pagei6Documentation h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	background-image: url(occ-logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 120px;
+	background-size: 100px 100px;
+	}
+
+.customPageHeader.pagei6Documentation p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pagei6Documentation	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pagei6Documentation	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pagei6Documentation	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	} 
+
+/* MAS DOCUMENTATION PAGE - custom */
+.customPageHeader.pageMASDocumentation {
+	background-image: url(confluenceMASBkg.jpg);
+	background-size: 100% auto;
+	height: 340px;
+	background-position-y:-180px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+.customPageHeader.pageMASDocumentation h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	background-image: url(iso_mas.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 120px;
+	background-size: 100px 100px;
+	}
+
+.customPageHeader.pageMASDocumentation p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pageMASDocumentation	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pageMASDocumentation	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pageMASDocumentation	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pageMASDocumentation	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pageMASDocumentation	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pageMASDocumentation	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pageMASDocumentation	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	} 
+
+
+/* i6 DOCUMENTATION PAGE - custom */
+.customPageHeader.pageAllegroDocumentation {
+	background-image: url(confluenceAllegroBkg.jpg);
+	background-size: 100% auto;
+	height: 340px;
+	background-position-y:-180px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+.customPageHeader.pageAllegroDocumentation h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	background-image: url(iso_allegro-rnd.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 120px;
+	background-size: 100px 100px;
+	}
+
+.customPageHeader.pageAllegroDocumentation p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pageAllegroDocumentation	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	} 
+
+/* i6 DOCUMENTATION PAGE - custom */
+.customPageHeader.pagei6Documentation {
+	background-image: url(confluencei6Bkg.jpg);
+	background-size: 100% auto;
+	height: 340px;
+	background-position-y:-180px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+.customPageHeader.pagei6Documentation h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	background-image: url(occ-logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 120px;
+	background-size: 197px 100px;
+	}
+
+.customPageHeader.pagei6Documentation p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pagei6Documentation	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pagei6Documentation	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pagei6Documentation	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pagei6Documentation	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+/* HELPDESK DOCUMENTATION PAGE - custom */
+.customPageHeader.pageHelpDeskDocumentation {
+	background-image: url(confluenceHelpDeskBkg.jpg);
+	background-size: 100% auto;
+	height: 340px;
+	background-position-y:-180px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+.customPageHeader.pageHelpDeskDocumentation h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	background-image: url(helpdesk-logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 30px;
+	padding-top: 120px;
+	background-size: 284px 70px;
+	}
+
+.customPageHeader.pageHelpDeskDocumentation p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pageHelpDeskDocumentation	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}  
+/* QUALITY AND SPEECH ANALYTICS DOCUMENTATION PAGE - custom */
+.customPageHeader.pageQSADocumentation {
+	background-image: url(confluenceQSABkg.jpg);
+	background-size: 100% auto;
+	height: 340px;
+	background-position-y:-90px;
+	padding-top: 60px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}	
+.customPageHeader.pageQSADocumentation h1 {
+	font-family: "Trebuchet MS";
+	text-shadow:0px 0px 10px #000000;
+	color: #ffffff;
+	font-size: 48px;
+	background-image: url(qsa-logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 120px;
+	background-size: 287px 100px;
+	}
+
+.customPageHeader.pageQSADocumentation p {
+	color: #eeeeee;	
+	text-shadow:0px 0px 10px #000000;
+	}
+
+.customPageHeader.pageQSADocumentation	.search-macro-large {
+	max-width: 800px;
+	width: calc(100% - 80px);
+	}
+
+.customPageHeader.pageQSADocumentation	.search-macro-large input {
+	font-size: 23px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	height: 50px;
+	background-color: rgba(256,256,256, 0.25);
+	border: 3px solid #ffffff;
+	padding-left: 40px;
+	color: #ffffff;
+	font-weight: bold;
+	}	
+
+.customPageHeader.pageQSADocumentation	.search-macro-large input:focus {
+	outline: none;
+	border-color: #8CC7E2;	
+	background-color: #ffffff;
+	color: #8CC7E2;
+	}
+
+.customPageHeader.pageQSADocumentation	.search-macro-large input:focus + .aui-icon:before {
+	color: #8CC7E2;
+	}	
+
+.customPageHeader.pageQSADocumentation	.search-macro-large input::-webkit-input-placeholder {
+	color: #ffffff;
+	}	
+
+.customPageHeader.pageQSADocumentation	.search-macro-large .aui-icon {
+	width: 26px;
+	height: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+
+.customPageHeader.pageQSADocumentation	.search-macro-large .aui-icon:before {
+	color: #ffffff;
+	font-size: 26px;
+	margin-top: 0px;
+	line-height: 0;
+	}
+/* for HOME PAGES */ 
+#title-text	{
+	display: none;
+	} 
+.createlink, a.createlink, a.createlink:link, a.createlink:visited, a.createlink:active, a.createlink:hover{
+	color: #09c;
+	text-decoration: none;
+}
+.page-metadata ul {
+    margin-top: 8px;
+	}	
+.firstStepsContainer, .knowledgeContainer, .supportContainer, .recentActivity, .spaceContributors, .tasks-container{
+	background-color: #f2f2f2;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 20px;
+}
+.firstStepsContainer h3{
+	background-image: url(first-steps-icon.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 130px;
+}
+.knowledgeContainer h3{
+	background-image: url(knowledge-icon.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 130px;
+}
+.supportContainer h3{
+	background-image: url(support-icon.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	padding-top: 130px;
+	color: #444;
+}
+.firstStepsContainer ul,.knowledgeContainer ul,.supportContainer ul, .recentActivity ul, .spaceContributors ul, .tasks-container ul{
+	list-style: none;
+	padding: 20px;
+	background-color: #fefefe;
+}
+.firstStepsContainer ul li,.knowledgeContainer ul li, .supportContainer ul li{
+	border-bottom: 1px dashed #ddd;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	margin-top: 0px;
+}
+.tasks-container ul li{
+	border-bottom: 1px dashed #ddd;
+    padding-bottom: 10px;
+    margin-left: 0px !important;
+    margin-top: 8px;
+}
+.firstStepsContainer ul li:last-child,.knowledgeContainer ul li:last-child, .supportContainer ul li:last-child, .tasks-container ul li:last-child{
+	border-bottom: none;
+}
+.contentLayout2>.columnLayout.three-equal:nth-child(2){
+	display: flex;
+}
+.contentLayout2>.columnLayout.three-equal:nth-child(2) .three-equal .cell.normal + .cell.normal + .cell.normal {
+    flex-direction: column;
+}
+.contentLayout2>.columnLayout.three-equal:nth-child(2) .wiki-content .innerCell {
+    flex-direction: column;
+    height: 100%;
+}
+.lastNewsContainer{
+	background-image: url(lastNewsBkg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.lastNewsContainer h2{
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 32px;
+	color: #555;
+	text-shadow: 0px 1px 0px #fff;
+	padding-top: 20px;
+	text-align: center;
+}
+.lastNewsContainer h5{
+	text-align: center;
+}
+.lastNewsContainer h5 a{
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 26px;
+	color: #0099cc;
+	text-shadow: 0px 1px 0px #fff;
+	padding-top: 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 5px;
+	padding: 6px;
+	margin: 0px auto;
+	display: inline-block;
+	position: relative;
+}
+.lastNewsContainer h5 a:after{
+	content: " ";
+	background-image: url(new-badge.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	top: -50px;
+	right: -15px;
+}
